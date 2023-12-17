@@ -134,3 +134,5 @@ document.addEventListener('DOMContentLoaded', (event) => {
     });
   });
   
+
+  document.getElementsByClassName('main')[0].style.height = window.innerHeight+'px';

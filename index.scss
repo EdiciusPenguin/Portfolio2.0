@@ -50,8 +50,9 @@ justify-content: center;
 }
 
 .section {
-  min-height: 100vh;
-  width: 100%;
+  min-height: 100dvh;
+  //width: 100%;
+  display: block;
   position: relative;
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
@@ -111,10 +112,6 @@ h1 {
   margin-top: 0;
 }
 
-html,
-body {
-  height: 100%;
-}
 
 $imageURL: "https://picsum.photos/id/190/1920/1080";
 $dur: 4s;
