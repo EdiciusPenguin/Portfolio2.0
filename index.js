@@ -135,4 +135,12 @@ document.addEventListener('DOMContentLoaded', (event) => {
   });
   
 
-  document.getElementsByClassName('main')[0].style.height = window.innerHeight+'px';
+
+    const scrollColorElems = document.querySelectorAll("[data-bgcolor]");
+  scrollColorElems.forEach((colorSection, i) => {
+
+    colorSection.style.height = window.innerHeight+'px';
+
+
+    
+  })
