@@ -267,6 +267,7 @@ body {
 
 .home-services-item img {
   max-height: 80vh;
+  display: none;
   width: 90px;
   object-fit: contain;
 }
@@ -311,16 +312,6 @@ body {
   margin-right: auto;
 }
 
-.home-clients-grid {
-  grid-column-gap: 4rem;
-  grid-row-gap: 4rem;
-  grid-template-rows: auto;
-  grid-template-columns: auto 1px 1fr;
-  grid-auto-columns: 1fr;
-  align-items: center;
-  display: grid;
-}
-
 .home-clients-logos {
   grid-column-gap: 2rem;
   grid-row-gap: 2rem;
@@ -352,7 +343,7 @@ body {
 .scroller > section {
   scroll-snap-align: start;
   scroll-snap-stop: always;
-  height: 100VH;
+  height: 100vh;
 }
 
 .works > .right {
@@ -449,14 +440,14 @@ body {
   transition: transform 0.5s;
 }
 .wrapper .container .bottom .left .buy:hover {
-  background: #A6CDDE;
+  background: #a6cdde;
 }
 .wrapper .container .bottom .left .buy:hover i {
-  color: #00394B;
+  color: #00394b;
 }
 .wrapper .container .bottom .right {
   width: 50%;
-  background: #A6CDDE;
+  background: #a6cdde;
   color: white;
   float: right;
   height: 200%;
@@ -484,11 +475,11 @@ body {
   clear: both;
   border-right: solid thin rgba(255, 255, 255, 0.3);
   height: 50%;
-  background: #BC3B59;
+  background: #bc3b59;
   transition: transform 0.5s, background 0.5s;
 }
 .wrapper .container .bottom .right .remove:hover {
-  background: #9B2847;
+  background: #9b2847;
 }
 .wrapper .container .bottom .right .remove i {
   transition: transform 0.5s;
@@ -498,7 +489,7 @@ body {
 }
 .wrapper .inside {
   z-index: 9;
-  background: #92879B;
+  background: #92879b;
   width: 140px;
   height: 140px;
   position: absolute;
@@ -539,7 +530,9 @@ body {
   text-align: left;
   width: 100%;
 }
-.wrapper .inside .contents h1, .wrapper .inside .contents p, .wrapper .inside .contents table {
+.wrapper .inside .contents h1,
+.wrapper .inside .contents p,
+.wrapper .inside .contents table {
   color: white;
 }
 .wrapper .inside .contents p {
@@ -731,12 +724,27 @@ body {
 }
 
 @media (min-width: 961px) {
+  .home-services-item img {
+    max-height: 80vh;
+    display: block;
+    width: 90px;
+    object-fit: contain;
+  }
   .home-services-grid {
     grid-column-gap: 4rem;
     grid-row-gap: 4rem;
     grid-template-rows: auto;
     grid-template-columns: 0.46fr 1px 1fr;
     grid-auto-columns: 1fr;
+    display: grid;
+  }
+  .home-clients-grid {
+    grid-column-gap: 4rem;
+    grid-row-gap: 4rem;
+    grid-template-rows: auto;
+    grid-template-columns: auto 1px 1fr;
+    grid-auto-columns: 1fr;
+    align-items: center;
     display: grid;
   }
 }
