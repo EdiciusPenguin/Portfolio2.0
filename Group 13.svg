@@ -1,0 +1,43 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="346.119"
+    height="543.894" viewBox="0 0 346.119 543.894">
+    <defs>
+        <style>
+            .a{fill:none;}.b{clip-path:url(#a);}.c{opacity:0.67;isolation:isolate;}.d{clip-path:url(#c);}.e{clip-path:url(#d);}.f{fill:url(#e);}.g{fill:#464749;}.h{fill:#fff;}</style>
+        <clipPath id="a">
+            <rect class="a" width="346.119" height="543.894" />
+        </clipPath>
+        <clipPath id="c">
+            <rect class="a" width="346.119" height="354.247" transform="translate(0 94.824)" />
+        </clipPath>
+        <clipPath id="d">
+            <path class="a"
+                d="M173.059,94.824c95.578,0,173.06,79.3,173.06,177.123s-77.482,177.124-173.06,177.124S0,369.77,0,271.947,77.481,94.824,173.059,94.824" />
+        </clipPath>
+        <radialGradient id="e" cx="0.453" cy="0.632" r="0.293"
+            gradientTransform="matrix(-0.372, -0.931, 0.969, -0.37, -0.655, 1.502)"
+            gradientUnits="objectBoundingBox">
+            <stop offset="0" stop-color="#fff" />
+            <stop offset="0.12" stop-color="#fcf3e4" />
+            <stop offset="0.73" stop-color="#ea3728" />
+            <stop offset="1" stop-color="#ea3728" />
+        </radialGradient>
+    </defs>
+    <g class="b">
+        <g class="b">
+            <g class="c">
+                <g class="d">
+                    <g class="e">
+                        <path class="f"
+                            d="M462.152,403.461,301.556-23.711-116.033,140.434l160.6,427.172Z" />
+                    </g>
+                </g>
+            </g>
+            <path class="g"
+                d="M68.689,271.947h56.966l90.421,158.937Q215.54,351.415,215,271.947H277.43V543.894H215L125.655,380.8V543.894H68.689Z" />
+            <path class="g"
+                d="M68.689,0h60.087l91.3,165.43V0H277.43V271.947H215L125.655,108.856V271.947H68.689Z" />
+            <path class="h"
+                d="M193.865,135.97H154.986l-86.3,233.64h51.169l16.71-42.63H209.9l15.69,42.63h51.841ZM154.986,277.18l19.439-59,18.08,59Z" />
+        </g>
+    </g>
+</svg>
